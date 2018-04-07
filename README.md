@@ -1,2 +1,2 @@
 # thesis_document
-Thesis 
+Bachelors thesis documents 
