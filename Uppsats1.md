@@ -6,9 +6,9 @@ Det enorma växandet av e-lärningstekniker har gjort att undervisning och lära
 Martínez-Argüelles et al. (2010) poängterar att insamligen av studenternas feedback är viktigt för att kunna stratigiskt övervaka kvalitén och standarder för undervisande och lärande på högutbildade institutioner för både vanligt lärande och e-lärande. 
 Erfarenheter från lärandet är unikt för varje person, det gör att återkoppligen oftast blir annourlunda eftersom det finns många olika faktorer som har en inverkan. Det kan också vara beroende på hur många alternativ som finns att välja på för studenten, studentens investering i kursen, och vad lärandemålet är, för att återkopplingen ska bli variera från student till student (Nkuyubwatsi, 2013). 
 
-Eftersom det finns en så stor variation på hur e-lärande kan genomföras, är det ett positivt tillvägagångssätt att följa en pedagogisk modell eller teori. Det bidrar med att sätta en grund till hur e-kursen ska kunna uppnå ett så giviande lärande efter de fatställda målen. Det finns ett flertal perpektiv på hur pedagagogik ska bli mappad, dessa är till exempel, på beteende, kognitivt struktur, eller aktivt socalisering (Conole et.al, 2004). Att förändra ett beteende med e-lärande är ett assosiativt perpektiv på pedagogiken (Conole, 2010). Assoiativt lärande uppnås med motivation, respons, och belöning med hjälp av att aktivit genomgå strukturerade uppgifter (Underhill, 2006). Det har visat sig att instruktioner i e-kurser kan enklare uppfattas om presentationen är tillräckligt informativ, de ger studenten att vilja använda e-lärande igen (Costley & Lange, 2017). 
+Det finns en så stor variation på hur e-lärande kan genomföras, är det ett positivt tillvägagångssätt att följa en pedagogisk modell eller teori. Det bidrar med att sätta en grund till hur e-kursen ska kunna uppnå ett så giviande lärande efter de fatställda målen. Det finns ett flertal perpektiv på hur pedagagogik ska bli mappad, dessa är till exempel, på beteende, kognitivt struktur, eller aktivt socalisering (Conole et.al, 2004). Att förändra ett beteende med e-lärande är ett assosiativt perpektiv på pedagogiken (Conole, 2010). Assoiativt lärande uppnås med motivation, respons, och belöning med hjälp av att aktivit genomgå strukturerade uppgifter (Underhill, 2006). Det har visat sig att instruktioner i e-kurser kan enklare uppfattas om presentationen är tillräckligt informativ, de ger studenten att vilja använda e-lärande igen (Costley & Lange, 2017). 
 
-Enligt 
+I undervisning med hjälp av den pedagogiska modellen Direkt Instruktion, har studenten kommenterat att utbildningsformatet visats sig vara organiserat, visuellt beskrivande, hög kvaliteé på animation och tydliga hjälpfunktioner. Detta uppvisade att förståelsen inom kunskapsområdet blev högre hos studenter och att tillämpnningen blev mer påtaglig (Kay, 2013). Faktum är att den tar hänsyn till vilka bakomliggande färdigheter studenten har för att sedan vidare utveckla kursinnehållet (Stein et.al, 1998).
 
 ###Problemformulering 
 
@@ -26,9 +26,14 @@ Baserat på studenters upplevelse, hur kan tillämpningen av DI vidare utveckla 
 Här redogörs litteratur av tidigare forskning av vad E-learning är, samt om hur pedagogiken utnyttjas inom kurser och vilka pedagogiska modeller, perspektiv, och läroteorier som använt inom E-learning. Det framgår likväl hur dessa två forskningsområden kan ge stöd åt denna studie och hjälpa till att få en förståelse om det möjligen finns ett förhållande till pedagogiken och lärande, och om det finns en inverkan på att upplevelse efter genomförd E-learning kurs ur studentens perspektiv.
 
  ####_Läran om E-learning_ 
- Den digitala världen är i ständigt utveckling och e-lärande har blivit en större del av organisationers satsning på personal. E-learning är en form av internatutbildning och utnyttjas som teknik för att hålla organisationens anställda uppdaterade och konkurrenskraftiga (Little, 2001). Det har visat sig vara ur ett ekonomiskt perspektiv, ett positiv hjälpmedel inom verksamheten att lära ut och dela information på kort tid (Hrastinski, 2008). Det är inte bara i organisationer som e-lärande använts, utan universitet utnyttjar detta som en del i utbildningen. Universitets studenter upplever att blandat e-lärande, alltså att kombinera e-lärande och fysiskt undervisande i skolan är ett effektivt arbetssätt för studier (Bentley et.al, 2012). det kan 
- 
- 
+Den digitala världen är i ständig utveckling och e-lärande har blivit uppmärksammat för att vara ett effektivt och kostsamt hjälpmedel för undervsning. Det är ett läromedel som börjar finnas mer och mer i vår vardag och introduceras regelbundet i skolan (Mork, 2011). E-lärande bygger på att undervisningen kan nås digital och är ett alterbativ där det inte finns för stora krav på inlärningen (Anaraki, 2004). E-lärande baseras på att kunna ta vilken kunskap som helst och därefter designa den efter mängd olika metoder (Holmqvist et.al, 2015)
+
+E-lärande har även blivit en stor del av organisationers satsning på personal. E-lärande är en form av internatutbildning och utnyttjas som teknik för att hålla organisationens anställda uppdaterade och konkurrenskraftiga (Little, 2001). Det har visat sig vara ur ett ekonomiskt perspektiv, ett positiv hjälpmedel inom verksamheten att lära ut och dela information på kort tid (Hrastinski, 2008). E-lärande kan designas på helt olika sätt och kan innehålla vilken kunskap som helst. Det gör att det finns olika varianter på e-lärande, eftersom 
+
+
+Universitets studenter upplever att blandat e-lärande, alltså att kombinera e-lärande och fysiskt undervisande i skolan är ett effektivt arbetssätt för studier (Bentley et.al, 2012). det kan 
+
+E-lärande täcker ett stort område av varianter utbildningar och kan först delas upp i två olika kategorier av lärande. Detta kallas asynkron- och synkron e-lärande, där asynkronsk e-lärande baseras på inspelat material som kan nås när som helst av studenten och det synkronska e-lärandet, fokuserar på live inlärning. Enligt Shahabadi & Uplane (2015) är det synkroniska e-lärandet inte lika vanligt eftersom det ska ske 
  <font color=grey> 
  -Vad är e-learning?- Vad finns det för olika sorters e-learning? - Vad är negativt och vad är positivt?- Viken typ av e-learning ska användas i denna studie</font>####_Pedagogiska perspektiv som används inom e-learning_ Det finns ett flertal varierande tillvägagångssätt och modeller för att skapa kurser inom E-learning. Det delas först in i olika perspektiv av läroteorier, associativ, kognitiv, och situativ (Mayes and Freitas, 2004). Det associativa perspektivet hanteras lärandet genom att aktiviteter utförs med hjälp av strukturerade uppgifter (Conole, 2010). Det används för att ändra studentens beteende och är kopplat till E-learning såsom ger en direkt bedömning och feedback (Conole et.al, 2004). Kognitivt perspektiv handlar om att lära genom förståelse, det syftar till att bearbetning och utdelning utgörs genom kommunikation, klargöranden, kontrast, rekombination, problemlösning och slutsatser. Det ger en grund till kreativt experimenterande och reflekterande ståndpunkter inom lärande. Det sociabla perspektivet belyser lärande genom sociala deltaganden. Grupper av studenter är en stor tillgång för att gemensamt skaffa kunskaper, genom modellering och imitation. Målet är att uppfatta att det som läras är meningsfullt (Brodie, 2005). #####Direkt Instruktion ModellenDirekt Instruktion modellen introducerade 1966 av Bereiter & Engelmann, i deras publikation _”Teaching disadvantaged children in the preschool”_ och fokuserade på barn med inlärningssvårigheter. Modellen bygger på teorier inom beteende inlärning, det vill säga att den bryter ner varje inlärningsuppgift till mindre beståndesdelar. Det kräver att en viss behärskning behövs av enklare färdigheter innan man går vidare till svårare färdigheter. Bereiter & Engelmann forskning resulterade i en ny undervisningsmetod för att säkerhetställa effektivitet. DI modellen hanterar att läraren har kontakt med studenten ansikte mot ansikte, detta sker oftast i mindre grupper. Interaktionen kontrolleras av läraren, eftersom de ska berättar, visar, modellerar, demonstrerar, och uppmanar att studenten ska ge aktiva svar (källa, webbsida). 
 
@@ -54,14 +59,28 @@ I denna studie ska det tillämpas en kvantitativ studie, i form av en enkät. An
  - 
 
 ###Källor 
+
+Anaraki, F., 2004. Developing an effective and efficient elearning platform. International Journal of the computer, the internet and management, 12(2), pp.57-63.
+
 Bentley, Y., Selassie, H. and Shegunshi, A., 2012. Design and Evaluation of Student-Focused eLearning. Electronic Journal of E-learning, 10(1), pp.1-12.
 
 Conole, G., Dyke, M., Oliver, M. and Seale, J., 2004. Mapping pedagogy and tools for effective learning design. Computers & Education, 43(1-2), pp.17-33.
 
 Costley, J. and Lange, C., 2017. The Mediating Effects of Germane Cognitive Load on the Relationship between Instructional Design and Students' Future Behavioral Intention. Electronic Journal of e-Learning, 15(2), pp.174-187.
 
+Holmqvist, L., Svensson, M. and Sörensen, J., 2015. Faktorer för att uppnå användbar e-learning.
+
+Kay, R., 2013. Evaluating the instructional architecture of web-based learning tools (WBLTs): Direct instruction vs. constructivism revisited. Journal of Interactive Learning Research, 24(1), pp.33-51.
+
 Martínez-Argüelles, M., Castán, J. & Juan, A. (2010). How do students measure service quality in eLearning? A case study regarding an internet-based university. Electronic Journal of eLearning, 8(2), 151-59.
+
+Mork, S.M., 2011. An interactive learning environment designed to increase the possibilities for learning and communicating about radioactivity. Interactive Learning Environments, 19(2), pp.163-177.
 
 Nkuyubwatsi, B., 2014. A Cross-Modal Analysis of Learning Experience from a Learner's Perspective. Electronic Journal of e-Learning, 12(2), pp.195-205.
 
+Shahabadi, M.M. and Uplane, M., 2015. Synchronous and asynchronous e-learning styles and academic performance of e-learners. Procedia-Social and Behavioral Sciences, 176, pp.129-138.
 Underhill, A.F., 2006. Theories of learning and their implications for on-line assesment. Turkish Online Journal of Distance Education, 7(1).
+
+Stein, M., Carnine, D. and Dixon, R., 1998. Direct instruction: Integrating curriculum design and effective teaching practice. Intervention in School and Clinic, 33(4), pp.227-233.
+
+
