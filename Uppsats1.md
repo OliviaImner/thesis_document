@@ -28,12 +28,13 @@ Här redogörs litteratur av tidigare forskning av vad E-learning är, samt om h
  ####_Läran om E-learning_ 
 Den digitala världen är i ständig utveckling och e-lärande har blivit uppmärksammat för att vara ett effektivt och kostsamt hjälpmedel för undervsning. Det är ett läromedel som börjar finnas mer och mer i vår vardag och introduceras regelbundet i skolan (Mork, 2011). E-lärande bygger på att undervisningen kan nås digital och är ett alterbativ där det inte finns för stora krav på inlärningen (Anaraki, 2004). E-lärande baseras på att kunna ta vilken kunskap som helst och därefter designa den efter mängd olika metoder (Holmqvist et.al, 2015)
 
-E-lärande har även blivit en stor del av organisationers satsning på personal. E-lärande är en form av internatutbildning och utnyttjas som teknik för att hålla organisationens anställda uppdaterade och konkurrenskraftiga (Little, 2001). Det har visat sig vara ur ett ekonomiskt perspektiv, ett positiv hjälpmedel inom verksamheten att lära ut och dela information på kort tid (Hrastinski, 2008). E-lärande kan designas på helt olika sätt och kan innehålla vilken kunskap som helst. Det gör att det finns olika varianter på e-lärande, eftersom 
+E-lärande har även blivit en stor del av organisationers satsning på personal. E-lärande är en form av internatutbildning och utnyttjas som teknik för att hålla organisationens anställda uppdaterade och konkurrenskraftiga (Little, 2001). Det har visat sig vara ur ett ekonomiskt perspektiv, ett positiv hjälpmedel inom verksamheten att lära ut och dela information på kort tid (Hrastinski, 2008). E-lärande kan designas på helt olika sätt och kan innehålla vilken kunskap som helst.  
+
+E-lärande täcker ett stort område av varianter utbildningar och kan först delas upp i två olika kategorier av lärande. Detta kallas asynkron- och synkron e-lärande, där asynkronsk e-lärande baseras på inspelat material som kan nås när som helst av studenten och det synkronska e-lärandet, fokuserar på live inlärning. Enligt Shahabadi & Uplane (2015) är det synkroniska e-lärandet inte lika vanligt eftersom det aldrig är schemalagt utan undervisningen görs i realtid. Synkroniskt e-lärande kan till exempel innebära att undervisningen sker, i ett viretuella klassrum, eller webbkonferans, eller online presentation (Hyder et.al, 2007)
+
 
 
 Universitets studenter upplever att blandat e-lärande, alltså att kombinera e-lärande och fysiskt undervisande i skolan är ett effektivt arbetssätt för studier (Bentley et.al, 2012). det kan 
-
-E-lärande täcker ett stort område av varianter utbildningar och kan först delas upp i två olika kategorier av lärande. Detta kallas asynkron- och synkron e-lärande, där asynkronsk e-lärande baseras på inspelat material som kan nås när som helst av studenten och det synkronska e-lärandet, fokuserar på live inlärning. Enligt Shahabadi & Uplane (2015) är det synkroniska e-lärandet inte lika vanligt eftersom det ska ske 
  <font color=grey> 
  -Vad är e-learning?- Vad finns det för olika sorters e-learning? - Vad är negativt och vad är positivt?- Viken typ av e-learning ska användas i denna studie</font>####_Pedagogiska perspektiv som används inom e-learning_ Det finns ett flertal varierande tillvägagångssätt och modeller för att skapa kurser inom E-learning. Det delas först in i olika perspektiv av läroteorier, associativ, kognitiv, och situativ (Mayes and Freitas, 2004). Det associativa perspektivet hanteras lärandet genom att aktiviteter utförs med hjälp av strukturerade uppgifter (Conole, 2010). Det används för att ändra studentens beteende och är kopplat till E-learning såsom ger en direkt bedömning och feedback (Conole et.al, 2004). Kognitivt perspektiv handlar om att lära genom förståelse, det syftar till att bearbetning och utdelning utgörs genom kommunikation, klargöranden, kontrast, rekombination, problemlösning och slutsatser. Det ger en grund till kreativt experimenterande och reflekterande ståndpunkter inom lärande. Det sociabla perspektivet belyser lärande genom sociala deltaganden. Grupper av studenter är en stor tillgång för att gemensamt skaffa kunskaper, genom modellering och imitation. Målet är att uppfatta att det som läras är meningsfullt (Brodie, 2005). #####Direkt Instruktion ModellenDirekt Instruktion modellen introducerade 1966 av Bereiter & Engelmann, i deras publikation _”Teaching disadvantaged children in the preschool”_ och fokuserade på barn med inlärningssvårigheter. Modellen bygger på teorier inom beteende inlärning, det vill säga att den bryter ner varje inlärningsuppgift till mindre beståndesdelar. Det kräver att en viss behärskning behövs av enklare färdigheter innan man går vidare till svårare färdigheter. Bereiter & Engelmann forskning resulterade i en ny undervisningsmetod för att säkerhetställa effektivitet. DI modellen hanterar att läraren har kontakt med studenten ansikte mot ansikte, detta sker oftast i mindre grupper. Interaktionen kontrolleras av läraren, eftersom de ska berättar, visar, modellerar, demonstrerar, och uppmanar att studenten ska ge aktiva svar (källa, webbsida). 
 
@@ -51,12 +52,34 @@ Bedömning och utvärdering
 - vad är anledningen till modellen?
 - Vilka situationer är modellen desinad för?
 - varför är modellen bra för denna studie?</font>###Metod 
-DI modellen som presenterades i tidigare avsnitt, ska användas som grund i denna studie. I det kommande kapitlet ska det redovisas hur studien ska gå tillväga. ####_En kvantitativ studie_
-I denna studie ska det tillämpas en kvantitativ studie, i form av en enkät. Anledningen till att välja att utföra en kvantitiativ studie låg till grund av att få en större målgrupp. Därmed kunna få en heltäckande bild av hur väl företaget följer DI modellen genom att ställa anpassade frågor hur de upplevde pedagogiken i kursen. Det har därmed kommit fram till att en inte använda sig av en kvalitativ undersökning, eftersom detta inte fångar upp tillräckligt med information för att få en bredare vy över området. 
+DI modellen som presenterades i tidigare avsnitt, ska användas som grund i denna studie. I det kommande kapitlet ska det redovisas hur studien ska gå tillväga. 
 
  - Beskrivning av hur deras kurs ser ut idag.
- - På vilket sätt utformas enkäten, likertskala.
- - 
+ - På vilket sätt utformas enkäten, likertskala.####_En kvantitativ studie_
+I denna studie ska det tillämpas en kvantitativ studie, i form av en enkät. Anledningen till att välja att utföra en kvantitiativ studie låg till grund av att få en större målgrupp. Därmed kunna få en heltäckande bild av hur väl företaget följer DI modellen genom att ställa anpassade frågor hur de upplevde pedagogiken i kursen. Det har därmed kommit fram till att en inte använda sig av en kvalitativ undersökning, eftersom detta inte fångar upp tillräckligt med information för att få en bredare vy över området. 
+
+
+ - Förklara och motivera ditt forskningsinriktning: kvalitativa, kvantitativa eller blandade metoder?
+ I denna studie ska det tillämpas en kvanitativ metod för att utvinna tillräckligt med information för att utvädera om företaget Grade kan implementera DI modellen i deras framtida arbete. Argumentet för att använda en kvanitiativ metod, är för att kunna komma åt en större grupp av deltagare och således få en heltäckande bild över upplevelsen av e-lärandet. För att kunna ta reda på om DI modellen är ett alternativ för företaget eller inte, behöver det undersökas hur upplevelsen uttrycks. Detta ska göras genom att fråga studenterna och inte utvecklarna eller beslutsfattarna efterom de har en bättre insikt i hur e-lärandet genomförs, snarare än hur den upplevs. 
+ 
+
+ 
+ - Tänk på hur de valda teorierna och metoderna relaterar till forskningsfrågor / problemformulering / hypotes.
+Tänk på effekten, inklusive nackdelar med de valda metoderna och teorierna.
+
+Gör konkreta förslag på hur du ska gå vidare, dvs vad du föreslår som åtgärd för forskning. (t.ex. teoretiska studier, utveckling av en befintlig teori, etnografiska studier, fallstudier mm)
+
+- Vilken typ av data kommer att samlas in? Varför?
+- Är dina uppgifter unika? Ny? Kan du använda data som samlats in av andra?
+-  Vilka fördelar och nackdelar skulle det innebära?
+-  Tänk på hur du får tillgång till datakällor och hämta data.
+-  Hur väljer du data / informanter?
+-  Vilken typ av datainsamlingsmetod kommer att användas (intervju, observation, etc)? Varför?
+-  Teoretiskt ramverk. Vilka teorier / teorier kommer att användas vid formulering av frågor / hypotes och analys av data? Varför? Du kan också referera till ditt bakgrunds kapitel om teorier beskrivs och motiveras där.
+-  Diskutera begreppen validitet och tillförlitlighet. Dessa begrepp måste förstås och användas på ett lämpligt sätt inom den antagna forskningsmetoden (kvalitativ / kvantitativ). 
+-  Hur säkerställer du giltiga resultat? Hur säkerställer du tillförlitliga resultat?
+Hur analyseras data?
+- Kommer du att kunna svara på forskningsfrågan / forskningsfrågor med de valda metoderna och teorierna?
 
 ###Källor 
 
@@ -69,6 +92,8 @@ Conole, G., Dyke, M., Oliver, M. and Seale, J., 2004. Mapping pedagogy and tools
 Costley, J. and Lange, C., 2017. The Mediating Effects of Germane Cognitive Load on the Relationship between Instructional Design and Students' Future Behavioral Intention. Electronic Journal of e-Learning, 15(2), pp.174-187.
 
 Holmqvist, L., Svensson, M. and Sörensen, J., 2015. Faktorer för att uppnå användbar e-learning.
+
+Hyder, K., Kwinn, A., Miazga, R. and Murray, M., 2007. The eLearning Guild’s Handbook on Synchronous e-Learning: How to design, produce, lead, and promote successful learning events, live and online. Santa Rosa, CA: The eLearning Guild. Retrieved January, 31, p.2007.
 
 Kay, R., 2013. Evaluating the instructional architecture of web-based learning tools (WBLTs): Direct instruction vs. constructivism revisited. Journal of Interactive Learning Research, 24(1), pp.33-51.
 
