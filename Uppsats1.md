@@ -57,12 +57,7 @@ Bedömning och utvärdering
  - Beskrivning av hur deras kurs ser ut idag.
  - På vilket sätt utformas enkäten, likertskala.####_En kvantitativ studie_
 
- - Förklara och motivera ditt forskningsinriktning: kvalitativa, kvantitativa eller blandade metoder?
-
 I denna studie ska det tillämpas en kvanitativ metod för att utvinna tillräckligt med information för att utvädera om företaget Grade kan implementera DI modellen i deras framtida arbete. Argumentet för att använda en kvanitiativ metod, är för att kunna komma åt en större grupp av deltagare och således få en heltäckande bild över upplevelsen av e-lärandet. För att kunna ta reda på om DI modellen är ett alternativ för företaget eller inte, behöver det undersökas hur upplevelsen är från e-kursen. Detta ska göras till följd av att fråga studenterna och inte utvecklarna eller beslutsfattarna efterom de har en bättre insikt i hur e-lärandet genomförs, snarare än hur den upplevs. 
- 
- - Tänk på hur de valda teorierna och metoderna relaterar till forskningsfrågor / problemformulering / hypotes.
-Tänk på effekten, inklusive nackdelar med de valda metoderna och teorierna. 
  
 DI modellen ska användas för att den liknar företaget nuvarande metod och det ska framförallt ta reda på hur väl den kan anpassas med företaget pedagogiska filosofi. Därmed kan inte kvalitativ metod ge tillräckligt med data för att bedöma hur företaget ska möjligtvis  tillämpa modellen eller inte. Att komplettra studien med intervjuer kan medföra att ytterligare åsikter framförs, men detta kan lösas genom att lägga till "egna åsikter" i en enkät. Att göra en kvantitativ studie inkluderar ofta att att göra en form av enkät, detta görs antingen genom pappers- eller webbaserad. Därför har det valts att göra denna studie med hjälp av en webbaserat enkät, som ska anpassas efter DI modellen pedagosika faktorer. 
 
@@ -76,22 +71,18 @@ Den data som kommer samlas in av enkäten, ska redovisa vilka delar av DI modell
 ####_Målgrupp_
 
 I denna studie söks det efter företag som anlitat Grade för att skapa e-kurser till deras anställa. Framförallt gör Grade e-kurser som handlar om att en befintlig kunskap redan finns och att beteende ska förändras eller upplysas. Därmed söker vi anställda som tagit del av en av Grades e-kurser. I det fallet har det bestämt att målgruppen ska vara deltagare från företaget Praktikertjänst. Bolaget bedrivs att arbeta med tandvård, hälso- och sjukvård, ekonomisk förvaltning samt därmed en förenlig verksamhet, som har 9180 anställda (Allabolag, 2016). På Prktikertjänt har e-läraande använt för att återuppliva kunskap inom ett specifikt kunskapsområde. Anställda har även använt e-lärande förut och är bekanta över likande e-kurser.  
- 
 
-Gör konkreta förslag på hur du ska gå vidare, dvs vad du föreslår som åtgärd för forskning. (t.ex. teoretiska studier, utveckling av en befintlig teori, etnografiska studier, fallstudier mm)
+####_Kvalitet_
+
+I nästa avsnitt ska det redogöras vilket omfattande värde som denna undersökning kommer att säkerhetsställa. Det är därmed viktigt att detta forskningsbidrag uppfyller kraven om valididet och reliablitet. För att uppfylla syftet med denna studie är att ge Grade underlag föra att utveckla sin pedagogiska filosofi med att följa den modellen DI. 
+
+Validitet rör sig om hur giltig informationen är och säkerhetsställ med hjälp av att enkäten får tillräckligt många svar att urvalet blir representativt. Det kan säkerhetsställas av att man jämför utfallet med tidgare forskning eller genom att använda en kontrollfråga för att kunna ta reda på om svaren fortfarande stämmer. Reliabilitet gäller däremot hur tillförlitlig är studien. Det ska alltså även kunna gå att studien återskapas och utför i ett likande sammanhang. 
+
+De svagheter som finns med studien är att den bara inriktar sig på en enda kurs och att det var ett tag sen de anställda genomförde kursen. Eftersom denna studie bara tillhandahåller en kurs att utvädera, kan ytterligare kurser bidra att jämföra hur DI modellen skulle bättre kunnna utveckla pedagogiken. Det behöver inte vara ett problem men skulle vara ett extra tillskott för att påvisa att modellen kan bidra till pedagogiken. 
+
+Kravet på reliabilitet och validitet i denna studie ska uppfyllas genom att göra en enkätstudie som utgår från DI modellens olika faser och därmed kan vi få fram det mest relevanta informationen i detta sammanhang. Det är även viktigt att studien håller sig till ämnet för att svara på frågeställningen. 
 
 
-- Vilken typ av data kommer att samlas in? Varför?
-- Är dina uppgifter unika? Ny? Kan du använda data som samlats in av andra?
--  Vilka fördelar och nackdelar skulle det innebära?
--  Tänk på hur du får tillgång till datakällor och hämta data.
--  Hur väljer du data / informanter?
--  Vilken typ av datainsamlingsmetod kommer att användas (intervju, observation, etc)? Varför?
--  Teoretiskt ramverk. Vilka teorier / teorier kommer att användas vid formulering av frågor / hypotes och analys av data? Varför? Du kan också referera till ditt bakgrunds kapitel om teorier beskrivs och motiveras där.
--  Diskutera begreppen validitet och tillförlitlighet. Dessa begrepp måste förstås och användas på ett lämpligt sätt inom den antagna forskningsmetoden (kvalitativ / kvantitativ). 
--  Hur säkerställer du giltiga resultat? Hur säkerställer du tillförlitliga resultat?
-Hur analyseras data?
-- Kommer du att kunna svara på forskningsfrågan / forskningsfrågor med de valda metoderna och teorierna?
 
 ###Källor 
 
