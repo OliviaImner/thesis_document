@@ -52,22 +52,34 @@ Bedömning och utvärdering
 - vad är anledningen till modellen?
 - Vilka situationer är modellen desinad för?
 - varför är modellen bra för denna studie?</font>###Metod 
-DI modellen som presenterades i tidigare avsnitt, ska användas som grund i denna studie. I det kommande kapitlet ska det redovisas hur studien ska gå tillväga. 
+I tidigare avsnitt redovisas DI modellen och ska användas som ramverk i denna studie. I detta avnsnitt kommer det presenterades hur DI modellen ska kunna användas som grund för att göra en kvantitativ undersökning i e-lärande företaget Grade.
 
  - Beskrivning av hur deras kurs ser ut idag.
  - På vilket sätt utformas enkäten, likertskala.####_En kvantitativ studie_
-I denna studie ska det tillämpas en kvantitativ studie, i form av en enkät. Anledningen till att välja att utföra en kvantitiativ studie låg till grund av att få en större målgrupp. Därmed kunna få en heltäckande bild av hur väl företaget följer DI modellen genom att ställa anpassade frågor hur de upplevde pedagogiken i kursen. Det har därmed kommit fram till att en inte använda sig av en kvalitativ undersökning, eftersom detta inte fångar upp tillräckligt med information för att få en bredare vy över området. 
-
 
  - Förklara och motivera ditt forskningsinriktning: kvalitativa, kvantitativa eller blandade metoder?
- I denna studie ska det tillämpas en kvanitativ metod för att utvinna tillräckligt med information för att utvädera om företaget Grade kan implementera DI modellen i deras framtida arbete. Argumentet för att använda en kvanitiativ metod, är för att kunna komma åt en större grupp av deltagare och således få en heltäckande bild över upplevelsen av e-lärandet. För att kunna ta reda på om DI modellen är ett alternativ för företaget eller inte, behöver det undersökas hur upplevelsen uttrycks. Detta ska göras genom att fråga studenterna och inte utvecklarna eller beslutsfattarna efterom de har en bättre insikt i hur e-lärandet genomförs, snarare än hur den upplevs. 
- 
 
+I denna studie ska det tillämpas en kvanitativ metod för att utvinna tillräckligt med information för att utvädera om företaget Grade kan implementera DI modellen i deras framtida arbete. Argumentet för att använda en kvanitiativ metod, är för att kunna komma åt en större grupp av deltagare och således få en heltäckande bild över upplevelsen av e-lärandet. För att kunna ta reda på om DI modellen är ett alternativ för företaget eller inte, behöver det undersökas hur upplevelsen är från e-kursen. Detta ska göras till följd av att fråga studenterna och inte utvecklarna eller beslutsfattarna efterom de har en bättre insikt i hur e-lärandet genomförs, snarare än hur den upplevs. 
  
  - Tänk på hur de valda teorierna och metoderna relaterar till forskningsfrågor / problemformulering / hypotes.
-Tänk på effekten, inklusive nackdelar med de valda metoderna och teorierna.
+Tänk på effekten, inklusive nackdelar med de valda metoderna och teorierna. 
+ 
+DI modellen ska användas för att den liknar företaget nuvarande metod och det ska framförallt ta reda på hur väl den kan anpassas med företaget pedagogiska filosofi. Därmed kan inte kvalitativ metod ge tillräckligt med data för att bedöma hur företaget ska möjligtvis  tillämpa modellen eller inte. Att komplettra studien med intervjuer kan medföra att ytterligare åsikter framförs, men detta kan lösas genom att lägga till "egna åsikter" i en enkät. Att göra en kvantitativ studie inkluderar ofta att att göra en form av enkät, detta görs antingen genom pappers- eller webbaserad. Därför har det valts att göra denna studie med hjälp av en webbaserat enkät, som ska anpassas efter DI modellen pedagosika faktorer. 
+
+En webbenkät gör det enklare att presentera resultatet och minskar risken att inte uppfånga värdefull data, förlorade enkäter, eller minska manuellt slarv. Att framställa en enkät var ett självklart tillvägagångssätt för denna studie, därför att DI modellens grund skapar element som lätt kan formuleras till enkätfrågor. 
+På grund av detta är utformningen av en enkät ett rimligt alternativ för att passa DI modellen. Ett annat argument är att alla studenterna får identiska enkäter och det gör att fler generella slutsatser lättare kan dras från resultaten. I takt med att hjälpa företaget med att fortsätta utveckla sin pedagogiska metod, kan en enkät bidra med att ge ett mer specificerat svar på vilka delar av deras e-kurser som det ska läggas mer fokus på och skulle kunna tillämpas. Av att inte använda en kvalitativ studie med form av intervjuer, hindrar vi att påverka resultatet genom att ha en fysisk närvaro eftersom det kan påverka studentens svar. Detta bidrar samt med att unvika att studenter känner att de inte vill delta och att anynomisitet är befintlig. En enkät gynnar dessutom att kunna ställa frågor som inte är relvant till innehållet, detta stödjer att inte påverka nästkommande fråga som kan förändra resultatet. 
+
+####_Datainsamling_
+
+Den data som kommer samlas in av enkäten, ska redovisa vilka delar av DI modellen som företaget kan använda sig mer av eller lägga mer fokus på för att förbättra pedagogiken i deras e-kurser. Dessutom kan resultatet leda till att företaget börjar använda sig av modellen och förankrar den in deras utbildningar. Dessa uppgifter är unika för företaget och inriktar sig endast på hur den pedagoska filosofin ska förbättras inom verksamheten. Insamlad data kan resultera i att andra e-lärande företag kan utvädera sina egna e-kurser och jämföra hur DI fungerade för Grade och därefter ha modellen som alternativ för deras framtida pedagogiska modell. Nackdelar med att andra företag ska ta del av denna studie är att det kan bli svårt att göra en överstämmande analys. De fördelar med denna studie är att ett nytt fall av hur DI modellen kan implemetneras i e-lärande och hur upplevlesen kan ge resultat för förbättrning. 
+
+####_Målgrupp_
+
+I denna studie söks det efter företag som anlitat Grade för att skapa e-kurser till deras anställa. Framförallt gör Grade e-kurser som handlar om att en befintlig kunskap redan finns och att beteende ska förändras eller upplysas. Därmed söker vi anställda som tagit del av en av Grades e-kurser. I det fallet har det bestämt att målgruppen ska vara deltagare från företaget Praktikertjänst. Bolaget bedrivs att arbeta med tandvård, hälso- och sjukvård, ekonomisk förvaltning samt därmed en förenlig verksamhet, som har 9180 anställda (Allabolag, 2016). På Prktikertjänt har e-läraande använt för att återuppliva kunskap inom ett specifikt kunskapsområde. Anställda har även använt e-lärande förut och är bekanta över likande e-kurser.  
+ 
 
 Gör konkreta förslag på hur du ska gå vidare, dvs vad du föreslår som åtgärd för forskning. (t.ex. teoretiska studier, utveckling av en befintlig teori, etnografiska studier, fallstudier mm)
+
 
 - Vilken typ av data kommer att samlas in? Varför?
 - Är dina uppgifter unika? Ny? Kan du använda data som samlats in av andra?
