@@ -3,10 +3,11 @@ Enkät baserat på DI:
 Presentation fas
 
 - Granskning av tidigare material.
-<font color= grey> Jag har tidgare erfarenheter och färdigheter för att göra kursen?
+<font color= grey> Jag har tidgare erfarenheter och färdigheter för att göra kursen.
 </font>
 
 - Uttalande om färdigheter eller kunskaper som ska läras (vad de lär sig)<font color= grey> Jag förstod vad jag skulle lära mig med att gå kursen. </font>
+-
 - Motiv för tillvägagångssättet / materialet (varför de lär sig detta)
 <font color= grey>Jag förstår varför jag ska påminnas om det här </font>
 - Förklaring av de färdigheter eller kunskaper som ska läras
@@ -29,7 +30,7 @@ Bedömning och utvärderingsfas
  <font color= grey> Jag blev bedömd hur jag klarade mig under kursen  </font>
 
 - Summatisk bedömning
- <font color= grey>Jag fick en sammanfattnig av min min bedömning av kursen </font>
+ <font color= grey>Kursen sammanfattade hur jag hade klarat mig under kursen  </font>
 
 Övervakning och återkoppling 
 
