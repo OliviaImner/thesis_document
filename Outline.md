@@ -3,7 +3,7 @@
   <ol>
     <li>Vad är e-lärande?</li>
     <li>Hur används de och varför behövs det utvädering av e-kurser?</li>
-    <li>Finns det variationer pedagogik inom e-lärande?</li>
+    <li>Finns det varierande pedagogik inom e-lärande?</li>
     <li>Baserat på studenters upplevelse, hur kan tillämpningen av DI vidare utveckla företagets pedagogiska filosofi?</li>
     <ol type="A">
       <li>Beskriva hur DI modellen och Grades kurser ser ut.</li>
