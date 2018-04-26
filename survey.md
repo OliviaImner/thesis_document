@@ -7,7 +7,7 @@ Presentation fas
 </font>
 
 - Uttalande om färdigheter eller kunskaper som ska läras (vad de lär sig)<font color= grey> Jag förstod vad jag skulle lära mig med att gå kursen. </font>
--
+
 - Motiv för tillvägagångssättet / materialet (varför de lär sig detta)
 <font color= grey>Jag förstår varför jag ska påminnas om det här </font>
 - Förklaring av de färdigheter eller kunskaper som ska läras
