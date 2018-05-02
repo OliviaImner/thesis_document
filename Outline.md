@@ -8,9 +8,10 @@
 		iii.
 	d. Hur mycket arbetas det med pedagogik inom e-lärande? 
 		i.	c.	Hur används de och varför behövs det utvädering av e-kurser?
-
+	
 
 	d. Baserat på studenters upplevelse, hur kan tillämpningen av DI vidare utveckla företagets pedagogiska filosofi? 
+
 		i. Beskriva hur DI modellen och Grades kurser ser ut.	
 		ii. Modellen ska ska användas för att få svar på om den 
 		kan användas för att pedagogisk hjälpa Grade med deras kurser.
