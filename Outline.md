@@ -2,42 +2,49 @@
   <li><strong>Introduktion och frågeställning</strong></li>
   <ol>
     <li>Vad är e-lärande?</li>
-    <li>Hur används de och varför behövs det utvädering av e-kurser?</li>
+    <li>Hur används det?</li>
+    <li>För-och nackdelar med e-lärande</li>
+    <li>Var används e-lärande?</li>
     <li>Finns det varierande pedagogik inom e-lärande?</li>
-    <li>Baserat på studenters upplevelse, hur kan tillämpningen av DI vidare utveckla företagets pedagogiska filosofi?</li>
+    
     <ol type="A">
-      <li>Beskriva hur DI modellen och Grades kurser ser ut.</li>
-      <li>Modellen ska ska användas för att få svar på om den kan användas för att pedagogisk hjälpa Grade med deras kurser och sedan skickas till deltagare som gjort e-kurser hos Grade.</li>
+      <li>Beskriv pedagogiska perspektiv</li>
       <ol type="i">
-      <li>Nämna tidigare forskning om DI modellen och varför den kan passa Grades kurser.</li>
+      <li>Nämn de slumpmässiga modellerna i varje perspektiv</li>
       </ol>
-      <li>Kan en utvädering av upplevelsen och DI modellen hjälpa Grade med deras kurser?</li>
+      <li>Varför gör man utvärderingar?</li>
     </ol>
-    <li>Sammanfattning: “Därmed ska det tas reda på om en tillämpning och utvädering av DI modellen kan förbättra Grades pedagogiska tillvägagångsstätt för att skapa kurser.</li>
+    <li>Berätta kort om Grade</li>
   </ol>
   <li><strong>Hur ska utväderingen gå tillväga?</strong></li>
   <ol>
-  <li>Enkät</li>
+  <li>Intervju</li>
     <ol type="A">
-    <li>Baserd på DI modellen</li>
-    <li>Enkäten ska innehålla:</li>
-    <ol type="i">
-      <li>Frågor som baserar sig på DI modellen olika faser.</li>
-      <li>Generella frågor som kan ställa till vilken Grade 
-			kurs som helst.</li>
+    <li>Frågor om den dagens pedagogik</li>
+       <ol type="i">
+      <li>Frågor ska vara un-bais</li>
+      <li>Generella frågor som kan ställa, ha extra fårgor</li>
     </ol>
+    <li>Punktlista över vilka pedagogiska mål Grade har</li>
+ 
     </ol>
-  <li>Grade; har företag som köpt kurser från dom och ska kunna få 		veta anställas upplevelser.</li>
+  <li>Målet är att använda punktlistan och jämföra den med kurserna</li>
   <ol type="A">
-    <li>Berätta om företaget</li>
+    <li></li>
   </ol>
-  <li>Studenter; Vilka var studenterna?</li>
+  <li>All information behöver komma från intervjun och inte ngt som jag vet innan</li>
   <ol type="A">
     <li>Hur många studenter är det totalt (ideelt minst 50 st)?
 </li>
     <li>Vilka erfarenhter av e-lärande har de innan kursen?</li>
   </ol>
   </ol>
+      <li><strong>Teori</strong></li>
+		<ol>
+		<li>E-lärandets bakgrund</li>
+		<li>Pedagogiska perspektiv 
+		<li>Utvalda modeller </li>
+		</ol>
   <li><strong>Conclusion</strong></li>
   <ol>
     <li>Den studie kan användas för att få företaget Grade att 
