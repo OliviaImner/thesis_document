@@ -15,7 +15,8 @@
       <li>Varför gör man utvärderingar?</li>
     </ol>
     <li>Berätta kort om Grade</li>
-  </ol>
+    </ol>
+  
   <li><strong>Hur ska utväderingen gå tillväga?</strong></li>
   <ol>
   <li>Intervju</li>
@@ -27,11 +28,8 @@
     </ol>
     <li>Punktlista över vilka pedagogiska mål Grade har</li>
  
-    </ol>
   <li>Målet är att använda punktlistan och jämföra den med kurserna</li>
-  <ol type="A">
-    <li></li>
-  </ol>
+
   <li>All information behöver komma från intervjun och inte ngt som jag vet innan</li>
   <ol type="A">
     <li>Hur många studenter är det totalt (ideelt minst 50 st)?
@@ -39,7 +37,8 @@
     <li>Vilka erfarenhter av e-lärande har de innan kursen?</li>
   </ol>
   </ol>
-      <li><strong>Teori</strong></li>
+  </ol>
+  <li><strong>Teori</strong></li>
 		<ol>
 		<li>E-lärandets bakgrund</li>
 		<li>Pedagogiska perspektiv 
