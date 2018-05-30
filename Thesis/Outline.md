@@ -1,24 +1,68 @@
 <ol type="I">
   <li><strong>Introduktion och frågeställning</strong></li>
   <ol>
-    <li>Vad är e-lärande?</li>
-    <li>Hur används det?</li>
-    <li>För-och nackdelar med e-lärande.</li>
-    <li>Var används e-lärande?</li>
-    <li>Finns det varierande pedagogik inom e-lärande?</li>
-    
-    <ol type="A">
-      <li>Beskriv pedagogiska perspektiv</li>
-      <ol type="i">
-      <li>Nämn de slumpmässiga modellerna i varje perspektiv</li>
-      </ol>
-      <li>Varför gör man utvärderingar?</li>
+    <li>e-lärande general intro</li>
+    <ol type = "A">
+    	<li>Short description of how learning was accomplished before e-learning</li>
+    	<li>Describe the birth of e-learning and its, obvious, relationship to the internet</li>
+    	<li>För-och nackdelar med e-lärande compared with learning before e-learning was developed</li>
+    	<li>Hur används det? ...and is it used differently compared to previous learning methods</li>
+    	<li>Are there specific topics which e-learning is better suited to than traditional learning methods?
     </ol>
-    <li>Berätta kort om Grade</li>
-    <li>Syftet med studien</li>
+    <li>e-lärande som business</li>
+    	<ol type = "A">
+    		<li>International perspective</li>
+    			<ol type = "i">
+    				<li>Prevelence</li>
+    				<li>Growth</li>
+    				<li>Subjects</li>
+    			</ol>
+    		<li>Sweden/Stockholm</li>
+    		<ol type = "i">
+    			<li>Prevelence</li>
+    			<li>Growth</li>
+    			<li>Subjects</li>
+    		</ol>
+    	</ol>
+    <li>The process of e-course design</li>
+    <ol type = "A">
+    	<li>General</li>
+    	<ol type = "i">
+    		<li>Goals of the company that is paying to have the course designed</li>
+    		<li>etc...</li>
+    	</ol>
+    	<li>Without pedagogic model</li>
+    	<li>With pedagogic model</li>
+    	<ol type = "i">
+    		<li>General intro: Here you point out the benifits of using a pedagogic model and why they are useful for evaluation of the achievment of the companies goals</li>
+    		<li>Model options: Here you describe the different options for pedagogical models. You start general, with the 3 categories you later use to divide the models, and then specifically, describing the individual models that you use in your interview/evaluation.</li>
+    	</ol>
+    </ol>
+    <li>Grade</li>
+    	<ol type = "A">
+    		<li>Background information</li>
+			<ol type = "i">
+				<li>Experience</li>
+				<li>Specialization/niche</li>
+				<li># of employees
+				<li>Payload (courses per year)</li>
+			</ol>
+			<li>Current model for course design</li>
+			<ol type = "i">
+				<li> Step 1: ...</li>
+				<li> Step 2: ...</li>
+				<li> Step 3: ...</li>
+				<li> etc. ...</li>
+			</ol>
+			<li>Setup for next paragraph</li>
+			<ol type = "i">
+				<li>Here you build the stage for the research project that is described in the next section. You do this by concluding the previous section, that talks about their current model, by pointing out that they don't currently follow a pedagogic model and repeat why it would be benificial to do so.</li>
+			</ol>
+    	</ol>
+    <li>Syftet med studien (this section needs to be revised and expanded)</li>
     <ol type="A">
-    <li>Att utvädera företagets pedagogsika filosofi</li>
-    <li>Tolka deras riktlinjer från tre olika pedagogiska perspektiv </li>
+    	<li>Att utvädera företagets pedagogsika filosofi</li>
+    	<li>Tolka deras riktlinjer från tre olika pedagogiska perspektiv </li>
     </ol>
     <li>Frågeställning</li>
     <li></li>
