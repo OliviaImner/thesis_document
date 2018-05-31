@@ -1,6 +1,12 @@
 <ol type="I">
   <li><strong>Introduktion och frågeställning</strong></li>
   <ol>
+  	<li>General introduction (~3-6 sentances)
+  	<ol type = "A">
+  		<li>Capture interest</li>
+  		<li>Let the reader know what the text is going to be about</li>
+  		<li>Define e-learning</li>
+  	</ol>
     <li>e-lärande general intro</li>
     <ol type = "A">
     	<li>Short description of how learning was accomplished before e-learning</li>
