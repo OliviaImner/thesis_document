@@ -1,0 +1,66 @@
+---
+title: "Evaluation Analysis"
+author: "Olivia Imner"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: yes
+    code_folding: hide
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, message = FALSE}
+#PACKAGES
+packages <- c(
+  "printr",
+  "ggthemes",
+  "tidyverse",
+  "readxl"
+)
+purrr::walk(packages, library, character.only = TRUE)
+rm(packages)
+```
+
+```{r}
+#read data
+data <- read_excel(path = "~/Github/thesis_document/evaluation/evaluationResultsOfficial.xlsx") %>%
+  mutate(Phase = case_when(
+    Phase == "Bedömning och utvärderings fas" ~ "Bedömning och\nutvärderings fas",
+    Phase == "Övervakning och återkoppling fas" ~ "Övervakning och\nåterkoppling fas",
+    TRUE ~ Phase
+  )) %>%
+  mutate(Phase = parse_factor(Phase, levels = c(
+    "Presentation fas", "Praktik fas", 
+    "Bedömning och\nutvärderings fas", "Övervakning och\nåterkoppling fas"
+  )))
+```
+
+```{r}
+data %>% 
+  ggplot() +
+  geom_dotplot(
+    aes(Course, `Score (0-5)`, fill = Course, group = interaction(Course, Phase)),
+    binwidth = 0.1, binaxis = "y", binpositions = "bygroup", stackdir = "center", 
+    position = position_dodge(), dotsize = 1.5
+  ) +
+  geom_point(
+    data = . %>%
+      group_by(Course) %>%
+      summarize(mean = mean(`Score (0-5)`)),
+    aes(Course, mean), shape = 95, size = 10, colour = "grey30"
+  ) +
+  geom_linerange(
+    data = . %>%
+      group_by(Course) %>%
+      summarize(
+        sd.l = mean(`Score (0-5)`) - sd(`Score (0-5)`),
+        sd.h = mean(`Score (0-5)`) + sd(`Score (0-5)`)
+      ),
+    aes(Course, ymin = sd.l, ymax = sd.h), colour = "grey30"
+  ) +
+  facet_wrap(~Phase) +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 90), legend.position = "top")
+```
+

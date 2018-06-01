@@ -26,11 +26,14 @@ rm(packages)
 #read data
 data <- read_excel(path = "~/Github/thesis_document/interview/interviewScores.xlsx") %>%
   mutate(Nr = parse_factor(Nr, levels = unique(Nr))) %>%
-  mutate(Section = if_else(Section == "Användarbarhet och feedback på prestation", "Användarbarhet och feedback\npå prestation", Section)) %>%
+  mutate(Section = if_else(
+      Section == "Användarbarhet och feedback på prestation", 
+      "Användarbarhet och feedback\npå prestation", Section
+    )) %>%
   mutate(Section = parse_factor(Section, levels = unique(Section)))
 ```
 
-```{r, fig.align="center", fig.width=10, fig.height=8}
+```{r, fig.align="center", fig.width=8, fig.height=6, message = FALSE}
 figure1 <- data %>%
   ggplot() +
   geom_bar(aes(Nr, Poäng, fill = Modell), stat = "identity") +
@@ -54,12 +57,34 @@ data %>%
   )
 ```
 
-```{r, fig.align="center", fig.width=10, fig.height=8}
+```{r, fig.align="center", fig.width=8, fig.height=6, message = FALSE}
 figure2 <- data %>%
   ggplot() +
-  geom_boxplot(aes(Modell, Poäng, fill = Modell)) +
+  geom_dotplot(
+    aes(Modell, Poäng, fill = Modell), 
+    binaxis = "y", stackdir = "center", binwidth = 0.1
+  ) +
+  geom_point(
+    data = . %>% 
+    group_by(Modell) %>% 
+    summarize(`Mean Points` = mean(Poäng)),
+    aes(Modell, `Mean Points`), shape = 95, size = 10,
+    colour = "grey30"
+  ) +
+  geom_linerange(
+    data = . %>%
+      group_by(Modell) %>%
+      summarize(
+        sd.h = mean(Poäng) + sd(Poäng), 
+        sd.l = mean(Poäng) - sd(Poäng)
+      ),
+    aes(Modell, ymin = sd.l, ymax = sd.h),
+    colour = "grey30"
+  ) +
   theme_bw() +
-  scale_fill_ptol()
+  theme(legend.position = "top") +
+  scale_fill_ptol() +
+  scale_colour_ptol()
 
 figure2
 #ggsave(figure2, file = "figure2.pdf")
