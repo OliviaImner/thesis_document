@@ -11,10 +11,13 @@
     <ol type = "A">
     	<li>Short description of how learning was accomplished before e-learning</li>
     	<li>Describe the birth of e-learning and its, obvious, relationship to the internet</li>
-    	<li>I e-learning finns det 2 olika sätt, asynkroniskt och synkronsikt, förklara hur de går tillväga. </li>
-    	<li>För-och nackdelar med e-lärande compared with learning before e-learning was developed</li>
-    	<li>Hur används det? ...and is it used differently compared to previous learning methods. Jämfört med traditionell undervisning </li>
+ 
+       	<li>Två tllvägagångssätt av e-learning, asynkroniskt och synkronsikt, förklara hur de går tillväga. </li>
+       	<li>Hur används det? ...and is it used differently compared to previous learning methods. </li>
+  	<li>För-och nackdelar med e-lärande compared with learning before e-learning was developed</li>
+    	
     	<li>Are there specific topics which e-learning is better suited to than traditional learning methods?
+    	<li> Hur har organisationer utvecklats 
     	
     </ol>
     <li>e-lärande som business</li>
@@ -22,7 +25,7 @@
     		<li>International perspective</li>
     			<ol type = "i">
     				<li>Prevelence, utbredning internationellt. Hur använts det?</li>
-    				<li>Growth, hur har det växt de senate 10 åren?</li>
+    				<li>Growth, hur har det växt internationellt?</li>
     				<li>Subjects</li>
     			</ol>
     		<li>Sweden/Stockholm</li>
@@ -37,7 +40,7 @@
     	<li>General</li>
     	<ol type = "i">
     		<li>Goals of the company that is paying to have the course designed</li>
-    		<li>etc...</li>
+    		<li>Creating a concept for the client</li>
     	</ol>
     	<li>Without pedagogic model</li>
     	<li>With pedagogic model</li>
