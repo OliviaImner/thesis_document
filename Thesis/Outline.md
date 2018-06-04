@@ -17,7 +17,7 @@
   	<li>För-och nackdelar med e-lärande compared with learning before e-learning was developed</li>
     	
     	<li>Are there specific topics which e-learning is better suited to than traditional learning methods?
-    	<li> Hur har organisationer utvecklats 
+
     	
     </ol>
     <li>e-lärande som business</li>
