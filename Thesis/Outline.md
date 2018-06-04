@@ -11,16 +11,18 @@
     <ol type = "A">
     	<li>Short description of how learning was accomplished before e-learning</li>
     	<li>Describe the birth of e-learning and its, obvious, relationship to the internet</li>
+    	<li>I e-learning finns det 2 olika sätt, asynkroniskt och synkronsikt, förklara hur de går tillväga. </li>
     	<li>För-och nackdelar med e-lärande compared with learning before e-learning was developed</li>
-    	<li>Hur används det? ...and is it used differently compared to previous learning methods</li>
+    	<li>Hur används det? ...and is it used differently compared to previous learning methods. Jämfört med traditionell undervisning </li>
     	<li>Are there specific topics which e-learning is better suited to than traditional learning methods?
+    	
     </ol>
     <li>e-lärande som business</li>
     	<ol type = "A">
     		<li>International perspective</li>
     			<ol type = "i">
-    				<li>Prevelence</li>
-    				<li>Growth</li>
+    				<li>Prevelence, utbredning internationellt. Hur använts det?</li>
+    				<li>Growth, hur har det växt de senate 10 åren?</li>
     				<li>Subjects</li>
     			</ol>
     		<li>Sweden/Stockholm</li>
