@@ -45,6 +45,8 @@
     		<li>Två tllvägagångssätt av e-learning, asynkron och synkron, förklara hur de går tillväga. It needs to be its own paragraph and if it can specifically be related to pedagogic.</li>
     	</ol>
     	<li>Without pedagogic model</li>
+    	<ol type = "i"> 
+    	</ol>   	
     	<li>With pedagogic model</li>
     	<ol type = "i">
     		<li>General intro: Here you point out the benifits of using a pedagogic model and why they are useful for evaluation of the achievment of the companies goals</li>
