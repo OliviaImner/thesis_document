@@ -46,6 +46,11 @@
     	</ol>
     	<li>Without pedagogic model</li>
     	<ol type = "i"> 
+    	<li>Berätta varför man ska ha en pedagogisk modell - därför man ska kunna bedöma produkten som man levererar. 
+    	<li> Beskriv andra sätt att bedöma kursers pedagogoik.
+    	</li> 
+    	</li>
+    	
     	</ol>   	
     	<li>With pedagogic model</li>
     	<ol type = "i">
