@@ -34,7 +34,7 @@ data <- read_excel(path = "~/Github/thesis_document/interview/interviewScores.xl
 ```
 
 ```{r, fig.align="center", fig.width=8, fig.height=6, message = FALSE}
-figure1 <- data %>%
+figure1a <- data %>%
   ggplot() +
   geom_bar(aes(Nr, Poäng, fill = Modell), stat = "identity") +
   facet_wrap(~Section, scales = "free_x") +
@@ -43,8 +43,8 @@ figure1 <- data %>%
   labs(x = "Question Number") +
   theme(legend.position = "top")
 
-figure1
-#ggsave(figure1, file = "figure1.pdf")
+figure1a
+#ggsave(figure1a, file = "figure1a.pdf")
 ```
 
 ```{r}
@@ -58,7 +58,7 @@ data %>%
 ```
 
 ```{r, fig.align="center", fig.width=8, fig.height=6, message = FALSE}
-figure2 <- data %>%
+figure1b <- data %>%
   ggplot() +
   geom_dotplot(
     aes(Modell, Poäng, fill = Modell), 
@@ -86,7 +86,7 @@ figure2 <- data %>%
   scale_fill_ptol() +
   scale_colour_ptol()
 
-figure2
-#ggsave(figure2, file = "figure2.pdf")
+figure1b
+#ggsave(figure1b, file = "figure1b.pdf")
 ```
 
