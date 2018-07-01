@@ -30,7 +30,12 @@ data <- read_excel(path = "~/Github/thesis_document/interview/interviewScores.xl
       Section == "Användarbarhet och feedback på prestation", 
       "Användarbarhet och feedback\npå prestation", Section
     )) %>%
-  mutate(Section = parse_factor(Section, levels = unique(Section)))
+  mutate(Section = parse_factor(Section, levels = unique(Section))) %>%
+  mutate(Modell = case_when(
+    Modell == "AT" ~ "ATM",
+    Modell == "DI" ~ "DIM", 
+    Modell == "KL" ~ "KLM"
+  ))
 ```
 
 ```{r, fig.align="center", fig.width=8, fig.height=6, message = FALSE}
@@ -40,11 +45,18 @@ figure1a <- data %>%
   facet_wrap(~Section, scales = "free_x") +
   theme_bw() +
   scale_fill_ptol() +
-  labs(x = "Question Number") +
+  labs(x = "Frågans identifieringsnummer") +
   theme(legend.position = "top")
 
 figure1a
-#ggsave(figure1a, file = "figure1a.pdf")
+ggsave(
+  plot = figure1a,
+  filename = 'figure1a.pdf',
+  device = cairo_pdf,
+  height = 60,
+  width = 93,
+  units = "mm"
+)
 ```
 
 ```{r}
@@ -84,9 +96,17 @@ figure1b <- data %>%
   theme_bw() +
   theme(legend.position = "top") +
   scale_fill_ptol() +
-  scale_colour_ptol()
+  scale_colour_ptol() +
+  guides(fill = FALSE)
 
 figure1b
-#ggsave(figure1b, file = "figure1b.pdf")
+ggsave(
+  plot = figure1b,
+  filename = 'figure1b.pdf',
+  device = cairo_pdf,
+  height = 60,
+  width = 93,
+  units = "mm"
+)
 ```
 
