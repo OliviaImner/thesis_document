@@ -426,10 +426,11 @@ figure1a</code></pre>
 <pre class="r"><code>ggsave(
   plot = figure1a,
   filename = 'figure1a.pdf',
-  device = cairo_pdf,
-  height = 60,
-  width = 93,
-  units = &quot;mm&quot;
+  device = cairo_pdf
+  #,
+  #height = 60,
+  #width = 93,
+  #units = &quot;mm&quot;
 )</code></pre>
 <pre class="r"><code>data %&gt;% 
   group_by(Modell) %&gt;% 
@@ -502,10 +503,11 @@ figure1b</code></pre>
 <pre class="r"><code>ggsave(
   plot = figure1b,
   filename = 'figure1b.pdf',
-  device = cairo_pdf,
-  height = 60,
-  width = 93,
-  units = &quot;mm&quot;
+  device = cairo_pdf
+  #,
+  #height = 60,
+  #width = 93,
+  #units = &quot;mm&quot;
 )</code></pre>
 
 

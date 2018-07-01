@@ -71,10 +71,11 @@ figure2a
 ggsave(
   plot = figure2a,
   filename = 'figure2a.pdf',
-  device = cairo_pdf,
-  height = 60,
-  width = 93,
-  units = "mm"
+  device = cairo_pdf
+  #,
+  #height = 60,
+  #width = 93,
+  #units = "mm"
 )
 ```
 
@@ -120,10 +121,11 @@ figure2b
 ggsave(
   plot = figure2b,
   filename = 'figure2b.pdf',
-  device = cairo_pdf,
-  height = 60,
-  width = 93,
-  units = "mm"
+  device = cairo_pdf
+  #,
+  #height = 60,
+  #width = 93,
+  #units = "mm"
 )
 ```
 
@@ -162,10 +164,11 @@ figure2c
 ggsave(
   plot = figure2c,
   filename = 'figure2c.pdf',
-  device = cairo_pdf,
-  height = 60,
-  width = 93,
-  units = "mm"
+  device = cairo_pdf
+  #,
+  #height = 60,
+  #width = 93,
+  #units = "mm"
 )
 ```
 
@@ -214,9 +217,10 @@ figure2d
 ggsave(
   plot = figure2d,
   filename = 'figure2d.pdf',
-  device = cairo_pdf,
-  height = 60,
-  width = 93,
-  units = "mm"
+  device = cairo_pdf
+  #,
+  #height = 60,
+  #width = 93,
+  #units = "mm"
 )
 ```
