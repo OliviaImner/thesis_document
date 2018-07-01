@@ -32,19 +32,21 @@ data <- read_excel(path = "~/Github/thesis_document/evaluation/evaluationResults
 ```{r, fig.align="center", fig.width=8, fig.height=6, message = FALSE}
 figure2a <- data %>% 
   mutate(Phase = case_when(
-    Phase == "Bedömning och utvärderings fas" ~ "Bedömning och\nutvärderings fas",
-    Phase == "Övervakning och återkoppling fas" ~ "Övervakning och\nåterkoppling fas",
-    TRUE ~ Phase
+    Phase == "Bedömning och utvärderings fas" ~ "Bedömning och\nutvärdering",
+    Phase == "Övervakning och återkoppling fas" ~ "Övervakning och\nåterkoppling",
+    Phase == "Praktik fas" ~ "Praktik",
+    Phase == "Presentation fas" ~ "Presentation",
+    TRUE ~ "error"
   )) %>%
   mutate(Phase = parse_factor(Phase, levels = c(
-    "Presentation fas", "Praktik fas", 
-    "Bedömning och\nutvärderings fas", "Övervakning och\nåterkoppling fas"
+    "Presentation", "Praktik", 
+    "Bedömning och\nutvärdering", "Övervakning och\nåterkoppling"
   ))) %>%
   ggplot() +
   geom_dotplot(
     aes(Phase, `Score (0-5)`),
-    binwidth = 0.1, binaxis = "y", binpositions = "bygroup", stackdir = "center", 
-    position = position_dodge(), dotsize = 1.5
+    binwidth = 1, binaxis = "y", binpositions = "bygroup", stackdir = "center", 
+    position = position_dodge(), dotsize = 0.1, alpha = 0.75
   ) +
   geom_point(
     data = . %>%
@@ -64,18 +66,38 @@ figure2a <- data %>%
   scale_y_continuous(breaks = seq(0, 6, 1)) +
   labs(x = "Fas", y = "Poäng (0-5)") +
   theme_bw() +
-  theme(axis.text.x = element_text(angle = 90), legend.position = "top")
+  theme(
+    plot.title = element_blank(),
+    plot.margin = unit(rep(0.1, 4), "lines"),
+    legend.position = "top",
+    legend.background = element_blank(),
+    legend.box.spacing = unit(5, "pt"), 
+    legend.margin = margin(rep(0, 4), unit = "pt"),
+    legend.key.size = unit(1/5, "cm"),
+    legend.title = element_text(size = 14),
+    legend.text = element_text(size = 12),
+    axis.title = element_text(size = 14),
+    axis.title.x = element_text(margin = margin(t = 5)),
+    axis.text = element_text(size = 12),
+    axis.ticks = element_line(size = 0.25),
+    axis.ticks.length = unit(1/15, "cm"),
+    strip.text.x = element_text(
+      size = 12,
+      margin = margin(7, 0, 7, 0, "pt")
+    ),
+    panel.border = element_rect(fill = NA, size = 0.15)
+  ) +
+  guides(fill = guide_legend(override.aes = list(size = 5)))
 
 figure2a
 
 ggsave(
   plot = figure2a,
   filename = 'figure2a.pdf',
-  device = cairo_pdf
-  #,
-  #height = 60,
-  #width = 93,
-  #units = "mm"
+  device = cairo_pdf,
+  height = 170,
+  width = 150,
+  units = "mm"
 )
 ```
 
@@ -83,11 +105,33 @@ ggsave(
 
 ```{r, fig.align="center", fig.width=8, fig.height=6, message = FALSE}
 figure2b <- data %>%
+  mutate(Element = case_when(
+    Element == "Erfarenheter och färdigheter" ~ "Erfarenheter / färdigheter",
+    Element == "Inlärning av specifik kunskap eller färdighet" ~ "Inlärning av kunskap (ISKF)",
+    Element == "Beskrivningar och scenario" ~ "Beskrivningar / scenario",
+    Element == "Förklaring till vad som ska läras" ~ "Inlärnings förklaringar (FTL)",
+    Element == "Förståelse" ~ "Förståelse",
+    Element == "Guidning" ~ "Guidning",
+    Element == "Självständiga övningar" ~ "Självständiga övningar",
+    Element == "Periodisk granskning" ~ "Periodisk granskning",
+    Element == "Validering" ~ "Validering",
+    Element == "Sammanfattning" ~ "Sammanfattning",
+    Element == "Ledtrådar och uppmaningar" ~ "Ledtrådar / uppmaningar",
+    Element == "Support" ~ "Support"
+  )) %>%
   mutate(Element = parse_factor(Element, levels = unique(Element))) %>%
   mutate(Phase = str_replace(Phase, "(.*).{4}$", "\\1")) %>%
+  mutate(Phase = case_when(
+    Phase == "Bedömning och utvärderings" ~ "Bedömning och\nutvärdering",
+    Phase == "Övervakning och återkoppling" ~ "Övervakning och\nåterkoppling",
+    TRUE ~ Phase
+  )) %>%
   mutate(Phase = parse_factor(
     Phase, 
-    levels = c("Presentation", "Praktik", "Övervakning och återkoppling", "Bedömning och utvärderings")
+    levels = c(
+      "Presentation", "Praktik", "Övervakning och\nåterkoppling", 
+      "Bedömning och\nutvärdering"
+    )
   )) %>%
   ggplot() +
   geom_dotplot(
@@ -113,31 +157,52 @@ figure2b <- data %>%
   scale_y_continuous(breaks = seq(0, 5, 1)) +
   labs(y = "Poäng (0-5)") +
   theme_bw() +
-  theme(axis.text.x = element_text(angle = 90), legend.position = "top") +
-  guides(fill = guide_legend(title = "Fas"))
+  theme(
+    plot.title = element_blank(),
+    plot.margin = unit(rep(0.1, 4), "lines"),
+    legend.position = "top",
+    legend.background = element_blank(),
+    legend.box.spacing = unit(5, "pt"), 
+    legend.margin = margin(rep(0, 4), unit = "pt"),
+    legend.key.size = unit(1/5, "cm"),
+    legend.title = element_text(size = 14),
+    legend.text = element_text(size = 12),
+    legend.text.align = 0.5,
+    axis.title = element_text(size = 14),
+    axis.title.x = element_text(margin = margin(t = 5)),
+    axis.text = element_text(size = 12),
+    axis.text.x = element_text(angle = 90, hjust = 0.5),
+    axis.ticks = element_line(size = 0.25),
+    axis.ticks.length = unit(1/15, "cm"),
+    strip.text.x = element_text(
+      size = 12,
+      margin = margin(7, 0, 7, 0, "pt")
+    ),
+    panel.border = element_rect(fill = NA, size = 0.15)
+  ) +
+  guides(fill = guide_legend(title = "Fas", override.aes = list(size = 5)))
 
 figure2b
 
 ggsave(
   plot = figure2b,
   filename = 'figure2b.pdf',
-  device = cairo_pdf
-  #,
-  #height = 60,
-  #width = 93,
-  #units = "mm"
+  device = cairo_pdf,
+  height = 170,
+  width = 150,
+  units = "mm"
 )
 ```
 
 ### Score as a function of Course
 
 ```{r, fig.align="center", fig.width=8, fig.height=6, message = FALSE}
-figure2c <- data %>% 
+figure3a <- data %>% 
   ggplot() +
   geom_dotplot(
     aes(Course, `Score (0-5)`),
-    binwidth = 0.1, binaxis = "y", binpositions = "bygroup", stackdir = "center", 
-    position = position_dodge(), dotsize = 1.5
+    binwidth = 1, binaxis = "y", binpositions = "bygroup", stackdir = "center", 
+    position = position_dodge(), dotsize = 0.1, alpha = 0.75
   ) +
   geom_point(
     data = . %>%
@@ -157,38 +222,60 @@ figure2c <- data %>%
   scale_y_continuous(breaks = seq(0, 6, 1)) +
   labs(x = "Kurs", y = "Poäng (0-5)") +
   theme_bw() +
-  theme(axis.text.x = element_text(angle = 90), legend.position = "top")
+  theme(
+    plot.title = element_blank(),
+    plot.margin = unit(rep(0.1, 4), "lines"),
+    legend.position = "top",
+    legend.background = element_blank(),
+    legend.box.spacing = unit(5, "pt"), 
+    legend.margin = margin(rep(0, 4), unit = "pt"),
+    legend.key.size = unit(1/5, "cm"),
+    legend.title = element_text(size = 14),
+    legend.text = element_text(size = 12),
+    legend.text.align = 0.5,
+    axis.title = element_text(size = 14),
+    axis.title.x = element_text(margin = margin(t = 5)),
+    axis.text = element_text(size = 12),
+    axis.ticks = element_line(size = 0.25),
+    axis.ticks.length = unit(1/15, "cm"),
+    strip.text.x = element_text(
+      size = 12,
+      margin = margin(7, 0, 7, 0, "pt")
+    ),
+    panel.border = element_rect(fill = NA, size = 0.15)
+  ) +
+  guides(fill = guide_legend(title = "Fas", override.aes = list(size = 5)))
 
-figure2c
+figure3a
 
 ggsave(
-  plot = figure2c,
-  filename = 'figure2c.pdf',
-  device = cairo_pdf
-  #,
-  #height = 60,
-  #width = 93,
-  #units = "mm"
+  plot = figure3a,
+  filename = 'figure3a.pdf',
+  device = cairo_pdf,
+  height = 170,
+  width = 150,
+  units = "mm"
 )
 ```
 
 ### Score as a function of Phase and Course
 
 ```{r, fig.align="center", fig.width=8, fig.height=6, message = FALSE}
-figure2d <- data %>% 
+figure3b <- data %>% 
   mutate(Phase = str_replace(Phase, "(.*).{4}$", "\\1")) %>%
+  mutate(Phase = if_else(Phase == "Bedömning och utvärderings", "Bedömning och utvärdering", Phase)) %>%
   mutate(Phase = parse_factor(
     Phase, 
     levels = c(
       "Presentation", "Praktik", "Övervakning och återkoppling", 
-      "Bedömning och utvärderings"
+      "Bedömning och utvärdering"
     )
   )) %>%
   ggplot() +
   geom_dotplot(
     aes(Course, `Score (0-5)`, fill = Course, group = interaction(Course, Phase)),
-    binwidth = 0.1, binaxis = "y", binpositions = "bygroup", stackdir = "center", 
-    position = position_dodge(), dotsize = 1.5
+    binwidth = 1, binaxis = "y", binpositions = "bygroup", stackdir = "center", 
+    position = position_dodge(), dotsize = 0.3
   ) +
   geom_point(
     data = . %>%
@@ -210,17 +297,38 @@ figure2d <- data %>%
   labs(x = "Kurs", y = "Poäng (0-5)") +
   theme_bw() +
   theme(axis.text.x = element_text(angle = 90), legend.position = "top") +
+  theme(
+    plot.title = element_blank(),
+    plot.margin = unit(rep(0.1, 4), "lines"),
+    legend.position = "top",
+    legend.background = element_blank(),
+    legend.box.spacing = unit(5, "pt"), 
+    legend.margin = margin(rep(0, 4), unit = "pt"),
+    legend.key.size = unit(1/5, "cm"),
+    legend.title = element_text(size = 14),
+    legend.text = element_text(size = 12),
+    legend.text.align = 0.5,
+    axis.title = element_text(size = 14),
+    axis.title.x = element_text(margin = margin(t = 5)),
+    axis.text = element_text(size = 12),
+    axis.ticks = element_line(size = 0.25),
+    axis.ticks.length = unit(1/15, "cm"),
+    strip.text.x = element_text(
+      size = 12,
+      margin = margin(7, 0, 7, 0, "pt")
+    ),
+    panel.border = element_rect(fill = NA, size = 0.15)
+  ) +
   guides(fill = FALSE)
 
-figure2d
+figure3b
 
 ggsave(
-  plot = figure2d,
-  filename = 'figure2d.pdf',
-  device = cairo_pdf
-  #,
-  #height = 60,
-  #width = 93,
-  #units = "mm"
+  plot = figure3b,
+  filename = 'figure3b.pdf',
+  device = cairo_pdf,
+  height = 170,
+  width = 150,
+  units = "mm"
 )
 ```
