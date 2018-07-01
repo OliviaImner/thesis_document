@@ -49,14 +49,14 @@ figure1a <- data %>%
   theme(legend.position = "top")
 
 figure1a
-ggsave(
-  plot = figure1a,
-  filename = 'figure1a.pdf',
-  device = cairo_pdf,
-  height = 60,
-  width = 93,
-  units = "mm"
-)
+# ggsave(
+#   plot = figure1a,
+#   filename = 'figure1a.pdf',
+#   device = cairo_pdf,
+#   height = 60,
+#   width = 93,
+#   units = "mm"
+# )
 ```
 
 ```{r}
@@ -100,13 +100,13 @@ figure1b <- data %>%
   guides(fill = FALSE)
 
 figure1b
-ggsave(
-  plot = figure1b,
-  filename = 'figure1b.pdf',
-  device = cairo_pdf,
-  height = 60,
-  width = 93,
-  units = "mm"
-)
+# ggsave(
+#   plot = figure1b,
+#   filename = 'figure1b.pdf',
+#   device = cairo_pdf,
+#   height = 60,
+#   width = 93,
+#   units = "mm"
+# )
 ```
 

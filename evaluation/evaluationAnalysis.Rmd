@@ -62,11 +62,20 @@ figure2a <- data %>%
     aes(Phase, ymin = sd.l, ymax = sd.h), colour = "grey30"
   ) +
   scale_y_continuous(breaks = seq(0, 6, 1)) +
+  labs(x = "Fas", y = "Poäng (0-5)") +
   theme_bw() +
   theme(axis.text.x = element_text(angle = 90), legend.position = "top")
 
 figure2a
-ggsave(figure2a, file = "figure2a.pdf")
+
+ggsave(
+  plot = figure2a,
+  filename = 'figure2a.pdf',
+  device = cairo_pdf,
+  height = 60,
+  width = 93,
+  units = "mm"
+)
 ```
 
 ### Score as a function of Phase and Element
@@ -74,6 +83,11 @@ ggsave(figure2a, file = "figure2a.pdf")
 ```{r, fig.align="center", fig.width=8, fig.height=6, message = FALSE}
 figure2b <- data %>%
   mutate(Element = parse_factor(Element, levels = unique(Element))) %>%
+  mutate(Phase = str_replace(Phase, "(.*).{4}$", "\\1")) %>%
+  mutate(Phase = parse_factor(
+    Phase, 
+    levels = c("Presentation", "Praktik", "Övervakning och återkoppling", "Bedömning och utvärderings")
+  )) %>%
   ggplot() +
   geom_dotplot(
     aes(Element, `Score (0-5)`, fill = Phase),
@@ -96,26 +110,27 @@ figure2b <- data %>%
     aes(Element, ymin = sd.l, ymax = sd.h), colour = "grey30"
   ) +
   scale_y_continuous(breaks = seq(0, 5, 1)) +
+  labs(y = "Poäng (0-5)") +
   theme_bw() +
-  theme(axis.text.x = element_text(angle = 90), legend.position = "top")
+  theme(axis.text.x = element_text(angle = 90), legend.position = "top") +
+  guides(fill = guide_legend(title = "Fas"))
 
 figure2b
-ggsave(figure2b, file = "figure2b.pdf")
+
+ggsave(
+  plot = figure2b,
+  filename = 'figure2b.pdf',
+  device = cairo_pdf,
+  height = 60,
+  width = 93,
+  units = "mm"
+)
 ```
 
 ### Score as a function of Course
 
 ```{r, fig.align="center", fig.width=8, fig.height=6, message = FALSE}
 figure2c <- data %>% 
-  mutate(Phase = case_when(
-    Phase == "Bedömning och utvärderings fas" ~ "Bedömning och\nutvärderings fas",
-    Phase == "Övervakning och återkoppling fas" ~ "Övervakning och\nåterkoppling fas",
-    TRUE ~ Phase
-  )) %>%
-  mutate(Phase = parse_factor(Phase, levels = c(
-    "Presentation fas", "Praktik fas", 
-    "Bedömning och\nutvärderings fas", "Övervakning och\nåterkoppling fas"
-  ))) %>%
   ggplot() +
   geom_dotplot(
     aes(Course, `Score (0-5)`),
@@ -138,17 +153,34 @@ figure2c <- data %>%
     aes(Course, ymin = sd.l, ymax = sd.h), colour = "grey30"
   ) +
   scale_y_continuous(breaks = seq(0, 6, 1)) +
+  labs(x = "Kurs", y = "Poäng (0-5)") +
   theme_bw() +
   theme(axis.text.x = element_text(angle = 90), legend.position = "top")
 
 figure2c
-ggsave(figure2c, file = "figure2c.pdf")
+
+ggsave(
+  plot = figure2c,
+  filename = 'figure2c.pdf',
+  device = cairo_pdf,
+  height = 60,
+  width = 93,
+  units = "mm"
+)
 ```
 
 ### Score as a function of Phase and Course
 
 ```{r, fig.align="center", fig.width=8, fig.height=6, message = FALSE}
 figure2d <- data %>% 
+  mutate(Phase = str_replace(Phase, "(.*).{4}$", "\\1")) %>%
+  mutate(Phase = parse_factor(
+    Phase, 
+    levels = c(
+      "Presentation", "Praktik", "Övervakning och återkoppling", 
+      "Bedömning och utvärderings"
+    )
+  )) %>%
   ggplot() +
   geom_dotplot(
     aes(Course, `Score (0-5)`, fill = Course, group = interaction(Course, Phase)),
@@ -172,10 +204,19 @@ figure2d <- data %>%
   ) +
   facet_wrap(~Phase) +
   scale_y_continuous(breaks = seq(0, 6, 1)) +
+  labs(x = "Kurs", y = "Poäng (0-5)") +
   theme_bw() +
   theme(axis.text.x = element_text(angle = 90), legend.position = "top") +
   guides(fill = FALSE)
 
 figure2d
-ggsave(figure2d, file = "figure2d.pdf")
+
+ggsave(
+  plot = figure2d,
+  filename = 'figure2d.pdf',
+  device = cairo_pdf,
+  height = 60,
+  width = 93,
+  units = "mm"
+)
 ```
