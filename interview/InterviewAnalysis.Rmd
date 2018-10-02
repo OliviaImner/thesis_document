@@ -12,12 +12,7 @@ editor_options:
 
 ```{r, message = FALSE}
 #PACKAGES
-packages <- c(
-  "printr",
-  "ggthemes",
-  "tidyverse",
-  "readxl"
-)
+packages <- c("printr", "ggthemes", "tidyverse", "readxl")
 purrr::walk(packages, library, character.only = TRUE)
 rm(packages)
 ```
@@ -40,58 +35,6 @@ data <- read_excel(path = "~/Github/thesis_document/interview/interviewScores.xl
 
 ```{r, fig.align="center", fig.width=8, fig.height=6, message = FALSE}
 figure1a <- data %>%
-  ggplot() +
-  geom_bar(aes(Nr, Poäng, fill = Modell), stat = "identity") +
-  facet_wrap(~Section, scales = "free_x") +
-  theme_bw() +
-  scale_fill_ptol() +
-  labs(x = "Frågans identifieringsnummer") +
-  theme(
-    plot.title = element_blank(),
-    plot.margin = unit(rep(0.1, 4), "lines"),
-    legend.position = "top",
-    legend.background = element_blank(),
-    legend.box.spacing = unit(5, "pt"), 
-    legend.margin = margin(rep(0, 4), unit = "pt"),
-    legend.key.size = unit(1/5, "cm"),
-    legend.title = element_text(size = 14),
-    legend.text = element_text(size = 12),
-    axis.title = element_text(size = 14),
-    axis.title.x = element_text(margin = margin(t = 5)),
-    axis.text = element_text(size = 12),
-    axis.ticks = element_line(size = 0.25),
-    axis.ticks.length = unit(1/15, "cm"),
-    strip.text.x = element_text(
-      size = 12,
-      margin = margin(7, 0, 7, 0, "pt")
-    ),
-    panel.border = element_rect(fill = NA, size = 0.15)
-  ) +
-  guides(fill = guide_legend(override.aes = list(size = 5)))
-
-figure1a
-ggsave(
-  plot = figure1a,
-  filename = 'figure1a.pdf',
-  device = cairo_pdf,
-  height = 170,
-  width = 200,
-  units = "mm"
-)
-```
-
-```{r}
-data %>% 
-  group_by(Modell) %>% 
-  summarize(
-    `Sum of Points` = sum(Poäng),
-    `Median Points` = median(Poäng),
-    `Mean Points` = mean(Poäng)
-  )
-```
-
-```{r, fig.align="center", fig.width=8, fig.height=6, message = FALSE}
-figure1b <- data %>%
   ggplot() +
   geom_dotplot(
     aes(Modell, Poäng, fill = Modell), 
@@ -141,10 +84,10 @@ figure1b <- data %>%
   ) +
   guides(fill = FALSE)
 
-figure1b
+figure1a
 ggsave(
-  plot = figure1b,
-  filename = 'figure1b.pdf',
+  plot = figure1a,
+  filename = 'figure1a.pdf',
   device = cairo_pdf,
   height = 170,
   width = 100,
@@ -152,3 +95,54 @@ ggsave(
 )
 ```
 
+```{r}
+data %>% 
+  group_by(Modell) %>% 
+  summarize(
+    `Sum of Points` = sum(Poäng),
+    `Median Points` = median(Poäng),
+    `Mean Points` = mean(Poäng)
+  )
+```
+
+```{r, fig.align="center", fig.width=8, fig.height=6, message = FALSE}
+figure1b <- data %>%
+  ggplot() +
+  geom_bar(aes(Nr, Poäng, fill = Modell), stat = "identity") +
+  facet_wrap(~Section, scales = "free_x") +
+  theme_bw() +
+  scale_fill_ptol() +
+  labs(x = "Frågekonstruktionens identifieringsnummer") +
+  theme(
+    plot.title = element_blank(),
+    plot.margin = unit(rep(0.1, 4), "lines"),
+    legend.position = "top",
+    legend.background = element_blank(),
+    legend.box.spacing = unit(5, "pt"), 
+    legend.margin = margin(rep(0, 4), unit = "pt"),
+    legend.key.size = unit(1/5, "cm"),
+    legend.title = element_text(size = 14),
+    legend.text = element_text(size = 12),
+    axis.title = element_text(size = 14),
+    axis.title.x = element_text(margin = margin(t = 5)),
+    axis.text = element_text(size = 12),
+    axis.ticks = element_line(size = 0.25),
+    axis.ticks.length = unit(1/15, "cm"),
+    strip.text.x = element_text(
+      size = 12,
+      margin = margin(7, 0, 7, 0, "pt")
+    ),
+    panel.border = element_rect(fill = NA, size = 0.15)
+  ) +
+  guides(fill = guide_legend(override.aes = list(size = 5)))
+
+figure1b
+ggsave(
+  plot = figure1b,
+  filename = 'figure1b.pdf',
+  device = cairo_pdf,
+  height = 170,
+  width = 200,
+  units = "mm"
+)
+```
