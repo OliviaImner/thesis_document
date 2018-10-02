@@ -12,12 +12,7 @@ editor_options:
 
 ```{r, message = FALSE}
 #PACKAGES
-packages <- c(
-  "printr",
-  "ggthemes",
-  "tidyverse",
-  "readxl"
-)
+packages <- c("printr", "ggthemes", "tidyverse", "readxl")
 purrr::walk(packages, library, character.only = TRUE)
 rm(packages)
 ```
@@ -129,8 +124,9 @@ figure2b <- data %>%
   mutate(Phase = parse_factor(
     Phase, 
     levels = c(
-      "Presentation", "Praktik", "Övervakning och\nåterkoppling", 
-      "Bedömning och\nutvärdering"
+      "Presentation", "Praktik", "Bedömning och\nutvärdering",
+      "Övervakning och\nåterkoppling"
+      
     )
   )) %>%
   ggplot() +
