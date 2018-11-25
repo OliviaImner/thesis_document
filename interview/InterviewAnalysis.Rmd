@@ -20,7 +20,7 @@ rm(packages)
 ```{r}
 #read data
 data <- read_excel(path = "~/Github/thesis_document/interview/interviewScores.xlsx") %>%
-  mutate(Nr = parse_factor(Nr, levels = unique(Nr))) %>%
+  mutate(Nr = parse_factor(as.character(Nr), levels = unique(as.character(Nr)))) %>%
   mutate(Section = if_else(
       Section == "Användarbarhet och feedback på prestation", 
       "Användarbarhet och feedback\npå prestation", Section
@@ -112,7 +112,7 @@ figure1b <- data %>%
   facet_wrap(~Section, scales = "free_x") +
   theme_bw() +
   scale_fill_ptol() +
-  labs(x = "Frågekonstruktionens identifieringsnummer") +
+  labs(x = "Intervjufråga identifieringsnummer") +
   theme(
     plot.title = element_blank(),
     plot.margin = unit(rep(0.1, 4), "lines"),
