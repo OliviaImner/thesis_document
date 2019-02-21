@@ -108,7 +108,10 @@ data %>%
 ```{r, fig.align="center", fig.width=8, fig.height=6, message = FALSE}
 figure1b <- data %>%
   ggplot() +
-  geom_bar(aes(Nr, Poäng, fill = Modell), stat = "identity") +
+  geom_bar(
+    aes(Nr, Poäng, fill = Modell), 
+    stat = "identity", position = position_dodge(width = 0.95)
+  ) +
   facet_wrap(~Section, scales = "free_x") +
   theme_bw() +
   scale_fill_ptol() +
